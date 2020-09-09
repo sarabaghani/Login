@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="signup_required">please sign up first!</string>
+    <string name="successful_login">you\'re successfully logged in!</string>
+    <string name="mismatched_values">oops ! password or username doesn\'t match.</string>
+    <string name="missed_field">please fill all fields to continue.</string>
+    <string name="chose_pass">Chose a numeric password</string>
+    <string name="sign_up_btn">Sign up</string>
+    <string name="chose_user">Chose an username for your account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_btn">Login</string>
+
+
+</resources>

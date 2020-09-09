@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".controller.MainActivity">
+
+
+    <EditText
+        android:id="@+id/username_signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/chose_user"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pass_signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/chose_pass"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/signup_btn_signup"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/sign_up_btn"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
